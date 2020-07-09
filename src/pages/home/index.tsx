@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import { MainLayout } from "shared/components/Layout";
+import { Button } from "@material-ui/core";
 
 import "./index.css";
 
@@ -21,6 +22,9 @@ const HomeContainer = () => {
           >
             Learn React
           </a>
+          <Button variant="contained" color="primary">
+            Hello World
+          </Button>
         </header>
       </div>
     </MainLayout>

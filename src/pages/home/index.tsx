@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import { MainLayout } from "../../shared/components/Layout";
+import { MainLayout } from "shared/components/Layout";
 
 import "./index.css";
 

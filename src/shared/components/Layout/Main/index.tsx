@@ -1,6 +1,6 @@
 import React from "react";
-import { TopNavigation } from "../../Navigation";
-import { Footer } from "../index";
+import { TopNavigation } from "shared/components/Navigation";
+import { Footer } from "shared/components/Layout";
 
 const LayoutComponent = ({ children }: any) => {
   return (

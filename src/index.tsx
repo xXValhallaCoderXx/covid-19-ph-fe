@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./shared/styles/global-styles.css";
+import "shared/styles/global-styles.css";
 import RootRoutes from "./root-routes";
 import * as serviceWorker from './serviceWorker';
 

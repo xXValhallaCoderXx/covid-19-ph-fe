@@ -1,15 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import "shared/styles/global-styles.css";
 import RootRoutes from "./root-routes";
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <RootRoutes />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<RootRoutes />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
